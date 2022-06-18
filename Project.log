@@ -1,0 +1,78 @@
+Multi-OEM/Retail Project Version : 180226-R84.0 - BaseLine  [MRP via MDL Forum ONLY] 
+ 
+Required project files extracted successfully. 
+ 
+OEM's folder detected, structure appears OK. 
+ 
+No Config File Detected - Using Default Settings. 
+ 
+MRP Logging Mode              : Standard 
+Confirm File Delete           : Disabled 
+W10 TitleBar Color            : Disabled 
+Show 'ThisPC' On Desktop      : Disabled 
+ 
+OS Installation Date/Time     : 02/07/2022 {UTC} -- 12:49pm 
+ 
+[OSINF] =======================  
+[OSINF] Detected OS Information  
+[OSINF] =======================  
+[OSINF] Version {SKU}         : Windows 10 Pro {48} 
+[OSINF] Edition {Registry}    : Professional {48} 
+[OSINF] Edition {CBS}         : Professional 
+[OSINF] Architecture          : 64 Bits 
+[OSINF] Build Information     : 18362.1.amd64fre.19h1_release.190318-1202 
+[OSINF] Update Build Revision : 239 
+[OSINF] Edition Language/Code : en-US / 1033 {409h} 
+[OSINF] Locale                : en-US 
+[OSINF] Language Name Value   : ENU 
+[OSINF] =======================  
+ 
+[MBINF] ======================= 
+[MBINF] Motherboard Information 
+[MBINF] ======================= 
+[MBINF] #01 CS Product Name   : [R538/R578/R778] 
+[MBINF] #02 CS Model Name     : [R538/R578/R778] 
+[MBINF] #04 CS Vendor Name    : [SAMSUNG ELECTRONICS CO., LTD.] 
+[MBINF] #05 CS System Name    : [SAMSUNG ELECTRONICS CO., LTD.] 
+[MBINF] #06 Baseboard Name    : [SAMSUNG ELECTRONICS CO., LTD.] 
+[MBINF] #08 BIOS or SLIC ID   : [SECCSD - 6222004] 
+[MBINF] #09 SLIC Information  : [No SLIC Table Present] 
+[MBINF] #11 MSDM Information  : [No MSDM Table Present] 
+[MBINF] ======================= 
+ 
+[CMINF] ======================= 
+[CMINF] CPU/Memory  Information 
+[CMINF] ======================= 
+[CMINF] CPU Name/Type         : [Intel{R} Core{TM} i3 CPU       M 370  @ 2.40GHz] 
+[CMINF] CPU Description       : [Intel64 Family 6 Model 37 Stepping 5] 
+[CMINF] CPU Architecture      : [32/64 Bit Instruction Set] 
+[CMINF] CPU Cores/Threads     : [2] / [4] 
+[CMINF] Total Physical Memory : [3946 Mb] 
+[CMINF] Available Memory      : [3470 Mb] 
+[CMINF] ======================= 
+ 
+[HDTYP] Info: HDD Detected. 
+ 
+[SATOU] List user options enabled or applied... 
+[PKEIC] The PID.txt file was not detected. 
+[PKEIC] The ei.cfg file was not detected. 
+[CKDMI] Querying BIOS for any manufacturer brand information. 
+[THMOK] Samsung [#04] manufacturer detected for automated theme/branding. 
+[CHKMN] Computer Model Name: 'R538/R578/R778' has been applied. 
+[USRFT] CustomTheme option was not used. 
+[WPCHK] Wallpaper.jpg transferred. 
+[BGDFC] Desktop backgrounds folder created. 
+[BGDFC] BackgroundDefault.jpg created from Wallpaper.jpg. 
+[RMXML] OOBE.xml file processed. 
+[UBREP] User.bmp replaced. 
+[UPREP] User.png replaced. 
+[UPREP] User-40.png replaced. 
+[UPREP] User-32.png replaced. 
+[UPREP] User-48.png replaced. 
+[UPREP] User-192.png replaced. 
+[WX81S] Lock Screen {img105.jpg} replaced. Original renamed as img0105.jpg. 
+[WX81S] Log-In Background {img100.jpg} replaced. Original renamed as img0100.jpg. 
+[OTFTS] OEM theme folder has been created. 
+[OTFTS] OEM files have been transferred. 
+[ATHBA] Samsung OEM theme has been applied.  
+[BSHCS] Branding script has completed. 

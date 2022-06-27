@@ -1,0 +1,58 @@
+import React, { useState } from "react";
+
+const App = () => {
+  const [user, setUser] = useState("");
+  const [userErr, setUserErr] = useState(false);
+  const [password, setPassword] = useState("");
+  const [passwordErr, setPasswordErr] = useState(false);
+  
+
+  const userHandler = (e) => {
+    let item = e.target.value;
+    if (item.length < 4) {
+      setUserErr(true);
+    } else {
+      setUserErr(false);
+    }
+  };
+  const passwordHandler = (e) => {
+    let items=e.target.value;
+    if(items.length<6){
+      setPasswordErr(true);
+    }else {
+      setPasswordErr(false);
+    }
+  }
+  const loginHandler = (e) => {
+    if(user.length === 0 || password.length === 0)
+    {
+      alert('all field are empty')
+
+    }else
+    
+    {
+     alert('succesfully submitted')
+    }
+    e.preventDefault();
+  };
+
+  return (
+    <form className="app" onSubmit={loginHandler}>
+      <h1>Login</h1>
+      <label>Email</label>
+      <input type="text" placeholder="Enter user id" onChange={userHandler} />
+      {userErr?<span>Invalid data</span>:null}
+      <br></br>
+
+      <label>Password</label>
+      <input type="Password" placeholder="Enter user password" onChange={passwordHandler} />
+      {passwordErr?<span>Password more than 6 character</span>:null}
+      <br></br>
+
+      <button type="submit">Login</button>
+    
+    </form>
+  )
+  
+};
+export default App;
